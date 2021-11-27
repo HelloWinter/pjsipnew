@@ -4,9 +4,9 @@ PJSIP is a free and open source multimedia communication library written in C la
 
 ## Features
 
-- Supported platforms: iOS9+, macOS 10.12+
+- Supported platforms: iOS10+, macOS 10.12+
 - Supported architectures: (iOS) armv7, armv7s, arm64, i386, x86_64; (macOS) x86_64
-- pjsip 2.9
+- pjsip 2.11.1
 - IPv6 support
 - OpenSSL supported (LTS 1.1.1b)
 - Video support now provided by native frameworks ([VideoToolbox](https://developer.apple.com/documentation/videotoolbox?language=objc))
@@ -17,12 +17,12 @@ PJSIP is a free and open source multimedia communication library written in C la
 Add the following line to your `Podfile` and run `pod install` command.
 
 ```sh
-pod 'pjsip'
+pod 'pjsipnew'
 ```
 
 ## Example
 
-See [example](https://github.com/chebur/pjsip/tree/master/example/ipjsystest) folder for integration example
+See [example](https://github.com/HelloWinter/pjsipnew/tree/master/example/ipjsystest) folder for integration example
 
 ## Build manually
 

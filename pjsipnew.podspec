@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "pjsipnew"
-  s.version      = "2.11.1.1"
+  s.version      = "2.11.1.2"
   s.summary      = "pjsip for iOS and macOS (OSX)"
   s.homepage     = "https://github.com/HelloWinter"
   s.author       = 'cd'
@@ -83,11 +83,11 @@ Pod::Spec.new do |s|
   # s.osx.frameworks          = 'AppKit', 'VideoToolbox', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'CoreVideo'
 
   header_search_paths     = [
-                                '"$(PODS_ROOT)/Headers/Public/pjsip/pjlib/include"',
-                                '"$(PODS_ROOT)/Headers/Public/pjsip/pjlib-util/include"',
-                                '"$(PODS_ROOT)/Headers/Public/pjsip/pjmedia/include"',
-                                '"$(PODS_ROOT)/Headers/Public/pjsip/pjnath/include"',
-                                '"$(PODS_ROOT)/Headers/Public/pjsip/pjsip/include"'
+                                '"$(PODS_ROOT)/Headers/Public/pjsipnew/pjlib/include"',
+                                '"$(PODS_ROOT)/Headers/Public/pjsipnew/pjlib-util/include"',
+                                '"$(PODS_ROOT)/Headers/Public/pjsipnew/pjmedia/include"',
+                                '"$(PODS_ROOT)/Headers/Public/pjsipnew/pjnath/include"',
+                                '"$(PODS_ROOT)/Headers/Public/pjsipnew/pjsip/include"'
                               ]
 
   s.xcconfig                = {
